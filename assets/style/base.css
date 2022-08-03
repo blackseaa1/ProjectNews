@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #3AE386;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --border-color: #9B9B9B;
+  --background-color: #F4FEFF;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+@font-face{
+  font-family:"Mestrisch";
+  src: url('../Font/Metrisch/Metrisch-Medium.ttf');
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Mestrisch';
+  box-sizing: border-box;
+}
+
+
+
+.wide{
+    max-width: 1200px;
+    margin: 0 auto;
+}
